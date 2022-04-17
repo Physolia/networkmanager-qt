@@ -86,6 +86,7 @@ private:
     Q_DECLARE_PRIVATE(WirelessNetwork)
     Q_PRIVATE_SLOT(d_func(), void accessPointAppeared(const QString &))
     Q_PRIVATE_SLOT(d_func(), void accessPointDisappeared(const QString &))
+    Q_PRIVATE_SLOT(d_func(), void activeAccessPointChanged(const QString &))
     Q_PRIVATE_SLOT(d_func(), void updateStrength())
 
     WirelessNetworkPrivate *const d_ptr;

@@ -34,6 +34,7 @@ public:
 private Q_SLOTS:
     void accessPointAppeared(const QString &uni);
     void accessPointDisappeared(const QString &uni);
+    void activeAccessPointChanged(const QString &uni);
     void updateStrength();
 };
 
